@@ -1,6 +1,6 @@
 def hello_t(arr)
     arr.each do |e|
-        yiel(e)
+        yield(e)
     end
 
 end
